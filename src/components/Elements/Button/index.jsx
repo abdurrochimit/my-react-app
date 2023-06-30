@@ -3,7 +3,7 @@ const Button = (props) => {
     const {
         children,
         variant = "bg-black",
-        onClick = () => {},
+        onClick = {onClick},
         type = "button"
     } = props
     return (
